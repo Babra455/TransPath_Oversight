@@ -88,7 +88,7 @@ Irrecharge_transactions.csv  -  This dataset contains utility payments handled b
 2.	Open the SQL script file in your SQL editor.  
 3.	Analysis was done entirely using SQL queries.
 4.	View the results in the query output/results panel for each section of the analysis.
-5.	For a summary of insights and recommended actions (https://docs.google.com/presentation/d/1YS-3MZQF1xK9ZiC4eMBT_2OKXkTFlUIMe6rlkNwE7Fo/present?slide=id.p)
+5.	For a summary of insights and recommended actions  [Presentation Slides](https://docs.google.com/presentation/d/1YS-3MZQF1xK9ZiC4eMBT_2OKXkTFlUIMe6rlkNwE7Fo/present?slide=id.p)
  
  
 
