@@ -70,11 +70,11 @@ Irrecharge_transactions.csv  -  This dataset contains utility payments handled b
 --- 
  
 ## Tools & Techniques 
--	Aggregation and Analysis
--	Sorting, Joining and Filtering
--	Data cleaning and transformation in SQL
--	Derived Metrics 
--	Basic descriptive analytics and KPI design 
+- Sorting, Joining, Filtering, and Union in SQL
+- Data Cleaning and Transformation
+- Derived Metrics Calculation
+- Basic Descriptive Analytics
+- KPI Design
  
 --- 
  
