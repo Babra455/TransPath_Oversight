@@ -10,7 +10,7 @@
 TransPath is a Transaction Reconciliation and System Integrity analysis designed to investigate discrepancies across our payment infrastructure. Following customer complaints, settlement mismatches, and audit concerns, this project examines the full transaction lifecycle across the Mobile App, Banklink, NIBBS, CoralPay, and IRecharge systems.
 The objective is to identify missing, duplicated, misrouted, or inconsistent transactions, quantify financial exposure, assess service provider reliability, and pinpoint breakdowns in the payment pipeline. The findings will support executive decision-making, strengthen financial accuracy, and restore operational integrity across our transaction ecosystem.
 
-• [Presentation Slides](https://docs.google.com/presentation/d/1YS-3MZQF1xK9ZiC4eMBT_2OKXkTFlUIMe6rlkNwE7Fo/present?slide=id.p)
+ [Presentation Slides](https://docs.google.com/presentation/d/1YS-3MZQF1xK9ZiC4eMBT_2OKXkTFlUIMe6rlkNwE7Fo/present?slide=id.p)
 --- 
  
 ## Project Objective 
@@ -88,7 +88,7 @@ Irrecharge_transactions.csv  -  This dataset contains utility payments handled b
 2.	Open the SQL script file in your SQL editor.  
 3.	Analysis was done entirely using SQL queries.
 4.	View the results in the query output/results panel for each section of the analysis.
-5.	For a summary of insights and recommended actions  [Presentation Slides](https://docs.google.com/presentation/d/1YS-3MZQF1xK9ZiC4eMBT_2OKXkTFlUIMe6rlkNwE7Fo/present?slide=id.p)
+5.	For a summary of insights and recommended actions view [Presentation Slides](https://docs.google.com/presentation/d/1YS-3MZQF1xK9ZiC4eMBT_2OKXkTFlUIMe6rlkNwE7Fo/present?slide=id.p)
  
  
 
