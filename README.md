@@ -15,14 +15,14 @@ The objective is to identify missing, duplicated, misrouted, or inconsistent tra
 --- 
  
 ## Project Objective 
-i.	Provide actionable, data-driven recommendations to improve transaction integrity, prevent future losses, and strengthen operational controls.
-ii.	Analyze temporal patterns of failures, including peak hours, days of the week, and specific months, to identify potential system capacity or partner issues.
-iii.	Assess the reliability of all service providers by measuring success rates, missing transactions, and status mismatches to inform operational decisions.
-iv.	Quantify the financial impact of missing, failed, or duplicated transactions, including daily average losses and total exposure.
-v.	 Compare transaction statuses across all systems to ensure consistency and prevent accounting errors or customer disputes.
-vi.	Detect duplicate or missing utility payments and verify that each transaction is routed to the correct provider (CoralPay or IRecharge).
-vii.	Identify orphaned transactions in downstream systems and determine where the transaction flow breaks or data integrity is compromised.
-viii.	Reconcile all bank transfers to ensure that every transaction initiated in the app correctly passes through Banklink and NIBBS for final settlement.
+ - Provide actionable, data-driven recommendations to improve transaction integrity, prevent future losses, and strengthen operational controls.
+ - Analyze temporal patterns of failures, including peak hours, days of the week, and specific months, to identify potential system capacity or partner issues.
+ - Assess the reliability of all service providers by measuring success rates, missing transactions, and status mismatches to inform operational decisions.
+ - Quantify the financial impact of missing, failed, or duplicated transactions, including daily average losses and total exposure.
+ - Compare transaction statuses across all systems to ensure consistency and prevent accounting errors or customer disputes.
+ - Detect duplicate or missing utility payments and verify that each transaction is routed to the correct provider (CoralPay or IRecharge).
+ - Identify orphaned transactions in downstream systems and determine where the transaction flow breaks or data integrity is compromised.
+ - Reconcile all bank transfers to ensure that every transaction initiated in the app correctly passes through Banklink and NIBBS for final settlement.
 
 
 
@@ -30,15 +30,15 @@ viii.	Reconcile all bank transfers to ensure that every transaction initiated in
  
 ## Datasets 
 
-**Apps_transactions.csv ** -  This dataset contains all customer-initiated transactions with columns including txnRef, Date, Time, transaction_type, amount, status, and provider. It serves as the primary source of truth for both bank transfers and utility payments, enabling tracking, reconciliation, and validation of transaction activity across all payment channels.
+Apps_transactions.csv  -  This dataset contains all customer-initiated transactions with columns including txnRef, Date, Time, transaction_type, amount, status, and provider. It serves as the primary source of truth for both bank transfers and utility payments, enabling tracking, reconciliation, and validation of transaction activity across all payment channels.
 
-**Banklink_transactions.csv ** -  This dataset includes transactions processed through the Banklink gateway, with columns such as merchantRef, transaction_id, amount, status, Date, and Time. It allows analysis of bank transfer processing, identification of gateway failures, and verification of settlement flow to NIBSS.
+Banklink_transactions.csv  -  This dataset includes transactions processed through the Banklink gateway, with columns such as merchantRef, transaction_id, amount, status, Date, and Time. It allows analysis of bank transfer processing, identification of gateway failures, and verification of settlement flow to NIBSS.
 
-**Nibbs_transactions.csv ** -  This dataset captures final bank settlement records, containing transaction_id, amount, status, and settlement_date. It enables reconciliation with Banklink transactions, verification of successful settlements, and identification of transactions that fail to reach the interbank settlement system.
+Nibbs_transactions.csv  -  This dataset captures final bank settlement records, containing transaction_id, amount, status, and settlement_date. It enables reconciliation with Banklink transactions, verification of successful settlements, and identification of transactions that fail to reach the interbank settlement system.
 
-**Coralplay_transactions.csv ** -  This dataset records utility transactions processed by CoralPay, with columns including txnRef, Date, Time, service_type, amount, and status. It supports tracking and validation of CoralPay-processed payments, detection of duplicates, and assessment of transaction delivery accuracy.
+Coralplay_transactions.csv -  This dataset records utility transactions processed by CoralPay, with columns including txnRef, Date, Time, service_type, amount, and status. It supports tracking and validation of CoralPay-processed payments, detection of duplicates, and assessment of transaction delivery accuracy.
 
-**Irrecharge_transactions.csv ** -  This dataset contains utility payments handled by IRecharge, with columns such as txnRef, Date, Time, service_type, amount and status. It allows monitoring of IRecharge transactions, validation against App records, identification of routing errors, and detection of missing or duplicate transactions.
+Irrecharge_transactions.csv  -  This dataset contains utility payments handled by IRecharge, with columns such as txnRef, Date, Time, service_type, amount and status. It allows monitoring of IRecharge transactions, validation against App records, identification of routing errors, and detection of missing or duplicate transactions.
 
 
 --- 
